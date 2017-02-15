@@ -1,16 +1,11 @@
-/*.btn_container {
+.btn_container {
   width: 80%;
   height: 300px;
   margin: 0 auto;
   text-align: center; }
   .btn_container .btn {
     background: #ccc;
-    padding: 10% 20%; } */
-
- .btn {
-  padding: 20px 20px;
-  margin-top: 50px;
- } 
+    padding: 10% 20%; }
 
 .schedule {
   width: 70%;
@@ -37,7 +32,9 @@
     width: 100%; }
 
 .map_container {
-
+<<<<<<< HEAD
   width: 30%;
-  margin: 0 auto; 
+  margin: 0 auto; }
+=======
   width: 35%; }
+>>>>>>> origin/master
