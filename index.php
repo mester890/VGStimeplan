@@ -28,16 +28,19 @@
 				<h3>ETG 1</h3>
 			</div>
 		</a>
-		<a href="">
+		<a href="javascript:showhide('etg2')">
 			<div class="btn">
 				<h3>ETG 2</h3>
 			</div>
 		</a>
 			<div class="btn" id="etg1" style="display:none;">
-				<h3>A</h3>	
-				<h3>B</h3>
+				<h3>ETG 1 - A</h3>	
+				<h3>ETG 1 - B</h3>
 			</div>
-		</a>
+			<div class="btn" id="etg2" style="display:none;">
+				<h3>ETG 2 - A</h3>	
+				<h3>ETG 2 - B</h3>
+			</div>
 	</div>
 </div>
 </body>
