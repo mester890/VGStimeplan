@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD:login.php
 	<title>Logg inn</title>
 	<!-- Latest compiled and minified CSS morten tester -->
-=======
 	<title></title>
 	<!-- Latest compiled and minified CSS morten tester og sverre -->
->>>>>>> origin/master:index.php
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
@@ -16,13 +13,8 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-<<<<<<< HEAD:login.php
-=======
-
->>>>>>> origin/master:index.php
 </head>
 <body>
-<<<<<<< HEAD:login.php
 	<div class="container">
 		<div class="frame">
 			<h3>Logg inn</h3>
@@ -34,7 +26,6 @@
 			</form>
 		</div>
 	</div>
-=======
 <div class="container">
 	<div class="btn_container">
 
@@ -87,6 +78,5 @@ btn2.onclick = function () {
 	etg2.style.display = "inline";	
 }
 </script>
->>>>>>> origin/master:index.php
 </body>
 </html>
