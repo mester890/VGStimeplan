@@ -1,0 +1,8 @@
+.btn_container {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center; }
+  .btn_container .btn {
+    background: #ccc;
+    padding: 10% 20%; }
