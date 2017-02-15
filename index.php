@@ -36,19 +36,21 @@
 			</div>
 		</a>
 
-			<div class="btn" id="etg1">
-				<a>ETG 1 - A</a>	
-				<a>ETG 1 - B</a>
+			<div class="btn" id="etg1" style="display:none;">
+				<h3>ETG 1 - A</h3>	
+				<h3>ETG 1 - B</h3>
 			</div>
-			<div class="btn" id="etg2">
-				<a>ETG 2 - A</a>	
-				<a>ETG 2 - B</a>
+			<div class="btn" id="etg2" style="display:none;">
+				<h3>ETG 2 - A</h3>	
+				<h3>ETG 2 - B</h3>
 			</div>
 
-			<div class="klasseplan">
+			<div class="klasseplan" id="klp1" 
+			style="display:none; ">
 
 			</div>
-			<div>
+			<div class="klasseplan" id="klp2" 
+			style="display:none;">
 
 			</div>
 	</div>
@@ -62,16 +64,31 @@ var etg1 = document.getElementById('etg1');
 var etg2 = document.getElementById('etg2');
 var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
+var klp1 = document.getElementById('klp1');
+var klp2 = document.getElementById('klp2');
 
 btn1.onclick = function () {
-	etg1.style.display = "inline";
+	etg1.style.display = "inline-block";
+	klp1.style.display = "initial";
 	etg2.style.display = "none";
+	klp2.style.display = "none";
 }
 
 btn2.onclick = function () {
 	etg1.style.display = "none";
-	etg2.style.display = "inline";	
+	klp1.style.display = "none";
+	etg2.style.display = "inline-block";
+	klp2.style.display = "initial";	
 }
+
+/*if (!btn1.onfocus && !btn2.onfocus) {
+	etg1.style.display = "none";
+	etg2.style.display = "none";
+} */
+
+
+
+
 </script>
 
 
