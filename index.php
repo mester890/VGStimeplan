@@ -12,12 +12,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<script type="text/javascript">
-		function showhide(id) {
-       	var e = document.getElementById(id);
-       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-     }
-	</script>
 </head>
 
 <body>
@@ -36,33 +30,23 @@
 			</div>
 		</a>
 
-			<div class="btn" id="etg1" style="display:none;">
-<<<<<<< HEAD
+			<div id="etg1" style="display:none;">
 				<h3>ETG 1 - A</h3>	
 				<h3>ETG 1 - B</h3>
 			</div>
-			<div class="btn" id="etg2" style="display:none;">
+			<div id="etg2" style="display:none;">
 				<h3>ETG 2 - A</h3>	
 				<h3>ETG 2 - B</h3>
-=======
-				<a>ETG 1 - A</a>	
-				<a>ETG 1 - B</a>
 			</div>
-			<div class="btn" id="etg2" style="display:none;">
-				<a>ETG 2 - A</a>	
-				<a>ETG 2 - B</a>
->>>>>>> origin/master
-			</div>
-
-			<div class="klasseplan" id="klp1" 
-			style="display:none; ">
+			<div class="klasseplan" id="klp1" style="display:none; ">
 
 			</div>
-			<div class="klasseplan" id="klp2" 
-			style="display:none;">
+			<div class="klasseplan" id="klp2" style="display:none;">
 
 			</div>
 	</div>
+
+<!-- Map og B-fløy -->
 <div class="map_container">
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 559 1671">
 	<defs><style>.cls-1{fill:#fff;}</style></defs>
@@ -121,10 +105,8 @@
 </a>
 </svg>
 </div>
-<!--<button id="btn1">ETG 1</button>
-<button id="btn2">ETG 2</button>
--->
 
+<!-- Script for btn and show of map -->
 <script type="text/javascript">
 var etg1 = document.getElementById('etg1');
 var etg2 = document.getElementById('etg2');
