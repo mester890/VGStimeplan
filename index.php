@@ -17,23 +17,33 @@
 <body>
 <div class="container">
 	<div class="btn_container">
+
 		<a id="btn1">
 			<div class="btn">
 				<h3>ETG 1</h3>
 			</div>
 		</a>
-		<a id="btn2" >
+
+		<a id="btn2">
 			<div class="btn">
 				<h3>ETG 2</h3>
 			</div>
 		</a>
+
 			<div class="btn" id="etg1">
-				<h3>ETG 1 - A</h3>	
-				<h3>ETG 1 - B</h3>
+				<a>ETG 1 - A</a>	
+				<a>ETG 1 - B</a>
 			</div>
 			<div class="btn" id="etg2">
-				<h3>ETG 2 - A</h3>	
-				<h3>ETG 2 - B</h3>
+				<a>ETG 2 - A</a>	
+				<a>ETG 2 - B</a>
+			</div>
+
+			<div class="klasseplan">
+
+			</div>
+			<div>
+
 			</div>
 	</div>
 
@@ -48,13 +58,13 @@ var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
 
 btn1.onclick = function () {
-	etg1.style.display = "block";
+	etg1.style.display = "inline";
 	etg2.style.display = "none";
 }
 
 btn2.onclick = function () {
 	etg1.style.display = "none";
-	etg2.style.display = "block";	
+	etg2.style.display = "inline";	
 }
 </script>
 </body>
