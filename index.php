@@ -36,11 +36,11 @@
 			</div>
 		</a>
 
-			<div class="btn" id="etg1">
+			<div class="btn" id="etg1" style="display:none;">
 				<a>ETG 1 - A</a>	
 				<a>ETG 1 - B</a>
 			</div>
-			<div class="btn" id="etg2">
+			<div class="btn" id="etg2" style="display:none;">
 				<a>ETG 2 - A</a>	
 				<a>ETG 2 - B</a>
 			</div>
