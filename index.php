@@ -18,7 +18,7 @@
 <div class="container">
 		<div class="btn_container">
 
-			<a id="btn1">
+			<!--<a id="btn1">
 				<div class="btn">
 					<h3>ETG 1</h3>
 				</div>
@@ -28,12 +28,15 @@
 				<div class="btn">
 					<h3>ETG 2</h3>
 				</div>
-			</a>
+			</a>-->
+
+			<button id="btn1" class="btn btn-info col-md-offset-3">ETG 1</button>
+			<button id="btn2" class="btn btn-info col-md-offset-4">ETG 2</button>
 
 			<br>
 			<div id="etg1" style="display:none;">
-				<h3>ETG 1 - A</h3>	
-				<h3>ETG 1 - B</h3>
+				<h3 style="float: left;">ETG 1 - A</h3>	
+				<h3 style="float: right;">ETG 1 - B</h3>
 			</div>
 			<div id="etg2" style="display:none;">
 				<h3>ETG 2 - A</h3>	
