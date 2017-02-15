@@ -45,7 +45,7 @@
 </div>
 
 
-	<div class="container">
+	<div class="container" style="display:none">
 		<div class="schedule">
 			<table class="table table-bordered">
 				<tr class="header-row">
