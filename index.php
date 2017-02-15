@@ -105,10 +105,7 @@
 					</svg>
 				</div>
 			</div>
-	
-
-<!-- Map og B-fløy -->
-
+		</div>
 </div>
 
 <!-- Script for btn and show of map -->
