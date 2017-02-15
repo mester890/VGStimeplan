@@ -29,7 +29,7 @@
 					<h3>ETG 2</h3>
 				</div>
 			</a>
-
+			<button id="clear">Clear Site</button>
 			<br>
 			<div id="etg1" style="display:none;">
 				<h3>ETG 1 - A</h3>	
@@ -116,6 +116,7 @@ var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
 var klp1 = document.getElementById('klp1');
 var klp2 = document.getElementById('klp2');
+var clear = document.getElementById('clear');
 
 btn1.onclick = function () {
 	etg1.style.display = "inline-block";
@@ -131,11 +132,12 @@ btn2.onclick = function () {
 	klp2.style.display = "initial";	
 }
 
-while (btn1.onfocus == false && btn1.onfocus == false) {
+clear.onclick = function () {
 	etg1.style.display = "none";
 	etg2.style.display = "none";
+	klp1.style.display = "none";
+	klp2.style.display = "none";
 }
-
 
 
 </script>
