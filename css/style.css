@@ -6,3 +6,15 @@
   .btn_container .btn {
     background: #ccc;
     padding: 10% 20%; }
+
+table tr {
+  height: 100px; }
+
+table .header-row {
+  height: 30px !important; }
+  table .header-row th {
+    text-align: center; }
+
+table .left-row {
+  width: 5%;
+  text-align: center; }
