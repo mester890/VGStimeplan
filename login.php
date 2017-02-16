@@ -23,6 +23,9 @@
 				<br>
 				<br>
 				<input type="password" name="password" placeholder="Passord">
+				<br>
+				<br>
+				<input type="button" name="submit" value="Logg Inn">
 			</form>
 		</div>
 	</div>
