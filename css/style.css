@@ -4,6 +4,7 @@
   margin: 0 auto;
   text-align: center; }
   .btn_container .btn {
+    margin-top: 100px;
     background: #ccc;
     padding: 10% 20%; }
 
@@ -31,10 +32,19 @@
     padding: 8px;
     width: 100%; }
 
+.klasseplan {
+  display: none; }
+
 .map_container {
-<<<<<<< HEAD
-  width: 30%;
-  margin: 0 auto; }
-=======
-  width: 35%; }
->>>>>>> origin/master
+  width: 50%;
+  display: block; }
+
+.map {
+  text-align: center; }
+
+/* */
+.a_floy {
+  float: left; }
+
+.b_floy {
+  float: right; }
