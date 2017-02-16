@@ -16,6 +16,9 @@
 </head>
 <body>
 	<div class="container">
+		<div class="logo">
+			<img src="">
+		</div>
 		<div class="frame">
 			<h3>Logg inn</h3>
 			<form class="login_form">
