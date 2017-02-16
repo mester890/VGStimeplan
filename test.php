@@ -2,26 +2,49 @@
 <html>
 <head>
 	<title>TEST PAGE</title>
+	
 </head>
 <body>
 <h1>Parsing JSON - Teachers</h1>
 
-<div id="demo"></div> 
+<ul id="demo"></ul> 
+
+<!-- jQuery :) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 <script>
+	
+	// this will load the data from the API. It is an async call, and when it is DONE...
+	$.get('http://enormt-api-test.azurewebsites.net/Api/Time?room=b205&week=3')	.done(function(data){
+		// ... this function will be called :D
+		//console.log(data); 
+		
+		// Check it out!
+		for(var i = 0; i < data.length; i++){
+			// iterate through the list of "Time"
+			
+			// this will log the object to the console
+			//console.log(data[i]);
+						
+			// you can also access the fields of the object, like this: 
+			//console.log(data[i].Teacher);
+			
 
-var myArray = [{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-13T08:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Matte","Teacher":"Per Pi","Date":"2017-02-13T09:00:00+00:00","Room":"b205","CurrentClass":"1STB"},{"Subject":"Engelsk","Teacher":"Trude Lutt","Date":"2017-02-13T10:00:00+00:00","Room":"b205","CurrentClass":"1STC"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T11:00:00+00:00","Room":"b205","CurrentClass":"1STD"},{"Subject":"Politikk","Teacher":"Dånal Troimp","Date":"2017-02-13T12:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"","Teacher":"","Date":"2017-02-13T13:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-13T14:00:00+00:00","Room":"b205","CurrentClass":"1STG"},{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-13T15:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Naturfag","Teacher":"Bernt Bille","Date":"2017-02-13T16:00:00+00:00","Room":"b205","CurrentClass":"1STI"},{"Subject":"Norsk","Teacher":"Per Hansen","Date":"2017-02-13T08:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Logikk","Teacher":"Nils Jensen","Date":"2017-02-13T09:00:00+00:00","Room":"b205","CurrentClass":"1STD"},{"Subject":"Krig og fred","Teacher":"Dånal Troimp","Date":"2017-02-13T10:00:00+00:00","Room":"b205","CurrentClass":"1STD"},{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-13T11:00:00+00:00","Room":"b205","CurrentClass":"1SSS"},{"Subject":"Naturfag","Teacher":"Bernt Bille","Date":"2017-02-13T12:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T13:00:00+00:00","Room":"b205","CurrentClass":"1STA"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T14:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T15:00:00+00:00","Room":"b205","CurrentClass":"3STA"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T16:00:00+00:00","Room":"b205","CurrentClass":"3STG"},{"Subject":"","Teacher":"","Date":"2017-02-15T08:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"","Teacher":"","Date":"2017-02-15T09:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"","Teacher":"","Date":"2017-02-15T10:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-15T11:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-15T12:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"","Teacher":"","Date":"2017-02-15T13:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"","Teacher":"","Date":"2017-02-15T14:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"","Teacher":"","Date":"2017-02-15T15:00:00+00:00","Room":"b205","CurrentClass":""},{"Subject":"Politikk","Teacher":"Dånal Troimp","Date":"2017-02-15T16:00:00+00:00","Room":"b205","CurrentClass":"1KRG"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T08:00:00+00:00","Room":"b205","CurrentClass":"1STA"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T09:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T10:00:00+00:00","Room":"b205","CurrentClass":"3STA"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T11:00:00+00:00","Room":"b205","CurrentClass":"1STA"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T12:00:00+00:00","Room":"b205","CurrentClass":"2STB"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T13:00:00+00:00","Room":"b205","CurrentClass":"3STC"},{"Subject":"Nynorsk","Teacher":"Truls Test","Date":"2017-02-13T14:00:00+00:00","Room":"b205","CurrentClass":"1STD"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T15:00:00+00:00","Room":"b205","CurrentClass":"2STE"},{"Subject":"Programmering","Teacher":"Knut Kode","Date":"2017-02-13T16:00:00+00:00","Room":"b205","CurrentClass":"3STF"},{"Subject":"Naturfag","Teacher":"Bernt Bille","Date":"2017-02-13T08:00:00+00:00","Room":"b205","CurrentClass":"2FSD"},{"Subject":"Norsk","Teacher":"Trude Lutt","Date":"2017-02-13T09:00:00+00:00","Room":"b205","CurrentClass":"4HAM"},{"Subject":"Logikk","Teacher":"Nils Jensen","Date":"2017-02-13T10:00:00+00:00","Room":"b205","CurrentClass":"5DAM"},{"Subject":"PrisonBreak","Teacher":"Marius Herstad Meldal","Date":"2017-02-13T11:00:00+00:00","Room":"b205","CurrentClass":"1STA"},{"Subject":"PrisonBreak","Teacher":"Marius Herstad Meldal","Date":"2017-02-13T12:00:00+00:00","Room":"b205","CurrentClass":"2STA"},{"Subject":"PrisonBreak","Teacher":"Marius Herstad Meldal","Date":"2017-02-13T13:00:00+00:00","Room":"b205","CurrentClass":"3STA"},{"Subject":"PrisonBreak","Teacher":"Marius Herstad Meldal","Date":"2017-02-13T14:00:00+00:00","Room":"b205","CurrentClass":"1STA"},{"Subject":"PrisonBreak","Teacher":"Marius Herstad Meldal","Date":"2017-02-13T15:00:00+00:00","Room":"b205","CurrentClass":"2STB"},{"Subject":"PrisonBreak","Teacher":"Marius Herstad Meldal","Date":"2017-02-13T16:00:00+00:00","Room":"b205","CurrentClass":"3STC"}];
+			document.getElementById('demo').appendChild(document.createElement('li')).innerHTML = data[i].Teacher + " - " + data[i].Subject + " - " + data[i].Room.toUpperCase();
 
-
-for (var i = myArray.length - 1; i >= 0; i--) {
-	x = myArray[i];
-	var demoDiv = document.getElementById('demo');
-	demoDiv.appendChild(document.createElement('ul').appendChild(document.createElement('li'))).innerHTML = x.Teacher;
-	//document.getElementByTagName("div").innerHTML = x.Teacher; 
-}
+			// you can log multiple data if you like, at once!
+			//console.log(data[i].Teacher, data[i].Subject);
+			
+			// for simplicity, you can set the current 'Time' to a variable, and access it like this: 
+			var t = data[i]; 
+			console.log(t.Teacher, t.Subject); // then you don't have to write "data[i]" every time :)
+			
+			// live long and prosper
+		}
+		
+		
+	});
 
 </script>
-
-
 </body>
 </html>
