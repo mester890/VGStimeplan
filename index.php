@@ -13,67 +13,64 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-<div class="container">
+<div class="container-fluid">
+	<div class="row logo-row"">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<img src="img/logo.png">
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+		<br>
+		<div class="row">
+			<h2 class="text-center">Velkommen!</h2>
+			<h4 class="text-center">Velg etasje for å begynne.</h4>
+		</div>
 		<div class="btn_container">
-
 			<a id="btn1">
-				<div class="btn">
-					<h3>ETG 1</h3>
-				</div>
+				<h3 class="btn">ETG 1</h3>
 			</a>
-
 			<a id="btn2">
-				<div class="btn">
-					<h3>ETG 2</h3>
-				</div>
+				<h3 class="btn">ETG 2</h3>
 			</a>
 
 			<br>
+			<br>
+
 			<div id="etg1" style="display:none;">
-				<span>ETG 1 AB</span>
 			</div>
 			<div id="etg2" style="display:none;">
-				<span>ETG 2 AB</span>	
 			</div>
 
 			<div class="klasseplan" id="klp1">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
+					<div class="row map-row">
+						<h3 class="header-text">1. Etasje</h3>
+						<div class="col-md-6 map">
+							<h3 class="text-center header-text">A-Fløy</h3>
 							<?php include 'includes/map_a.php'; ?>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 map">
+							<h3 class="text-center header-text">B-Fløy</h3>
 							<?php include 'includes/map_b.php'; ?>
 						</div>
-					</div>
 				</div>
 
 			</div>
 
 			<div class="klasseplan" id="klp2">
 				<!-- Map B-fløy etg 2 -->
-				<div class="container">
-					<div class="row">
+					<div class="row map-row">
+						<h3 class="header-text">2. Etasje</h3>
 						<div class="col-md-6 map">
+							<h3 class="text-center header-text">A-Fløy</h3>
 							<?php include 'includes/map_a.php'; ?>
 						</div>
 						<div class="col-md-6 map">
+							<h3 class="text-center header-text">B-Fløy</h3>
 							<?php include 'includes/map_b.php'; ?>
 						</div>
 					</div>
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 map">
-							<?php include 'includes/map_a.php'; ?>
-						</div>
-						<div class="col-md-6 map">
-							<?php include 'includes/map_b.php'; ?>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -105,6 +102,10 @@ btn2.onclick = function () {
 while (btn1.onfocus == false && btn1.onfocus == false) {
 	etg1.style.display = "none";
 	etg2.style.display = "none";
+}
+
+function b202() {
+	table.style.display = "inherit";
 }
 
 

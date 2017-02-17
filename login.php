@@ -16,8 +16,14 @@
 </head>
 <body>
 	<div class="container">
-		<div class="logo">
-			<img src="">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<!--<div class="logo" style="margin-top: 80px">
+					<img src="img/logo.png" style="margin-left: 28px">
+				</div>-->
+			<div class="col-md-4"></div>
+			</div>
 		</div>
 		<div class="frame">
 			<h3>Logg inn</h3>
