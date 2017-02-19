@@ -4,7 +4,7 @@
     "Teacher": "Trude Lutt",
     "Time": 1,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -12,7 +12,7 @@
     "Teacher": "Per Pi",
     "Time": 2,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STB"
   },
   {
@@ -20,7 +20,7 @@
     "Teacher": "Trude Lutt",
     "Time": 3,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STC"
   },
   {
@@ -28,7 +28,7 @@
     "Teacher": "Knut Kode",
     "Time": 4,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STD"
   },
   {
@@ -36,7 +36,7 @@
     "Teacher": "Dånal Troimp",
     "Time": 5,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -44,7 +44,7 @@
     "Teacher": "",
     "Time": 6,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -52,7 +52,7 @@
     "Teacher": "Trude Lutt",
     "Time": 7,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STG"
   },
   {
@@ -60,7 +60,7 @@
     "Teacher": "Trude Lutt",
     "Time": 8,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -68,7 +68,7 @@
     "Teacher": "Bernt Bille",
     "Time": 9,
     "Day": 1,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STI"
   },
   {
@@ -76,7 +76,7 @@
     "Teacher": "Per Hansen",
     "Time": 1,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -84,7 +84,7 @@
     "Teacher": "Nils Jensen",
     "Time": 2,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STD"
   },
   {
@@ -92,7 +92,7 @@
     "Teacher": "Dånal Troimp",
     "Time": 3,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STD"
   },
   {
@@ -100,7 +100,7 @@
     "Teacher": "Trude Lutt",
     "Time": 4,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1SSS"
   },
   {
@@ -108,7 +108,7 @@
     "Teacher": "Bernt Bille",
     "Time": 5,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -116,7 +116,7 @@
     "Teacher": "Knut Kode",
     "Time": 6,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STA"
   },
   {
@@ -124,7 +124,7 @@
     "Teacher": "Knut Kode",
     "Time": 7,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -132,7 +132,7 @@
     "Teacher": "Knut Kode",
     "Time": 8,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STA"
   },
   {
@@ -140,7 +140,7 @@
     "Teacher": "Knut Kode",
     "Time": 9,
     "Day": 2,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STG"
   },
   {
@@ -148,7 +148,7 @@
     "Teacher": "",
     "Time": 1,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -156,7 +156,7 @@
     "Teacher": "",
     "Time": 2,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -164,7 +164,7 @@
     "Teacher": "",
     "Time": 3,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -172,7 +172,7 @@
     "Teacher": "Trude Lutt",
     "Time": 4,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -180,7 +180,7 @@
     "Teacher": "Trude Lutt",
     "Time": 5,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -188,7 +188,7 @@
     "Teacher": "",
     "Time": 6,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -196,7 +196,7 @@
     "Teacher": "",
     "Time": 7,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -204,7 +204,7 @@
     "Teacher": "",
     "Time": 8,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": ""
   },
   {
@@ -212,7 +212,7 @@
     "Teacher": "Dånal Troimp",
     "Time": 9,
     "Day": 3,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1KRG"
   },
   {
@@ -220,7 +220,7 @@
     "Teacher": "Truls Test",
     "Time": 1,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STA"
   },
   {
@@ -228,7 +228,7 @@
     "Teacher": "Truls Test",
     "Time": 2,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -236,7 +236,7 @@
     "Teacher": "Truls Test",
     "Time": 3,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STA"
   },
   {
@@ -244,7 +244,7 @@
     "Teacher": "Truls Test",
     "Time": 4,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STA"
   },
   {
@@ -252,7 +252,7 @@
     "Teacher": "Truls Test",
     "Time": 5,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STB"
   },
   {
@@ -260,7 +260,7 @@
     "Teacher": "Truls Test",
     "Time": 6,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STC"
   },
   {
@@ -268,7 +268,7 @@
     "Teacher": "Truls Test",
     "Time": 7,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STD"
   },
   {
@@ -276,7 +276,7 @@
     "Teacher": "Knut Kode",
     "Time": 8,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STE"
   },
   {
@@ -284,7 +284,7 @@
     "Teacher": "Knut Kode",
     "Time": 9,
     "Day": 4,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STF"
   },
   {
@@ -292,7 +292,7 @@
     "Teacher": "Bernt Bille",
     "Time": 1,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2FSD"
   },
   {
@@ -300,7 +300,7 @@
     "Teacher": "Trude Lutt",
     "Time": 2,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "4HAM"
   },
   {
@@ -308,7 +308,7 @@
     "Teacher": "Nils Jensen",
     "Time": 3,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "5DAM"
   },
   {
@@ -316,7 +316,7 @@
     "Teacher": "Marius Herstad Meldal",
     "Time": 4,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STA"
   },
   {
@@ -324,7 +324,7 @@
     "Teacher": "Marius Herstad Meldal",
     "Time": 5,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STA"
   },
   {
@@ -332,7 +332,7 @@
     "Teacher": "Marius Herstad Meldal",
     "Time": 6,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STA"
   },
   {
@@ -340,7 +340,7 @@
     "Teacher": "Marius Herstad Meldal",
     "Time": 7,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "1STA"
   },
   {
@@ -348,7 +348,7 @@
     "Teacher": "Marius Herstad Meldal",
     "Time": 8,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "2STB"
   },
   {
@@ -356,7 +356,7 @@
     "Teacher": "Marius Herstad Meldal",
     "Time": 9,
     "Day": 5,
-    "Room": "b200",
+    "Room": "b201",
     "CurrentClass": "3STC"
   }
 ]
