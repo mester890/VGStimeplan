@@ -25,7 +25,7 @@
 	            <ul class="nav navbar-nav">
 	              <li><a href="index.php">Hjem</a></li>
 	              <li><a href="map.php">Kart</a></li>
-	              <li><a href="#">Min Side</a></li>
+	              <li><a href="myAccount.php">Min Side</a></li>
 	              <li class="dropdown">
 	                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rom <span class="caret"></span></a>
 	                <ul class="dropdown-menu">

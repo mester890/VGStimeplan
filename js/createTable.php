@@ -24,6 +24,14 @@
 		<?php
 	}
 ?>
+<script type="text/javascript">
+	$.get('js/rooms.json')	.done(function(data){
+	for(var i = 0; i < data.length; i++){
+		var t = data[i]; 
+	}
+});
+
+</script>
 </table>
 </div>
 </div>
