@@ -2,7 +2,7 @@
 					<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 559 1671">
 						<defs><style>.cls-1{fill:#fff;}</style></defs>
 						<title>b_floy</title>
-					<a href="#">
+					<a href="#" id="B202">
 						<rect class="cls-1" x="4" y="4" width="307" height="217"/>
 						<path d="M307,8V217H8V8H307m8-8H0V225H315V0Z"/>
 					</a>

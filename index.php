@@ -30,6 +30,7 @@
 				</div>
 			</a>
 
+			<button id="mBtn">Modal</button>
 			<br>
 			<div id="etg1" style="display:none;">
 				<span>ETG 1 AB</span>
@@ -87,32 +88,30 @@ var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
 var klp1 = document.getElementById('klp1');
 var klp2 = document.getElementById('klp2');
+var B202 = document.getElementById('B202');
+var modal = document.getElementById('modal');
+var mBtn = document.getElementById('mBtn');
 
 btn1.onclick = function () {
 	etg1.style.display = "inline-block";
 	klp1.style.display = "initial";
 	etg2.style.display = "none";
 	klp2.style.display = "none";
-}
+};
 
 btn2.onclick = function () {
 	etg1.style.display = "none";
 	klp1.style.display = "none";
 	etg2.style.display = "inline-block";
 	klp2.style.display = "initial";	
-}
-
-while (btn1.onfocus == false && btn1.onfocus == false) {
-	etg1.style.display = "none";
-	etg2.style.display = "none";
-}
+};
 
 
 
 </script>
 
 
-	<div class="container" style="display:none">
+	<div class="container" style="display: none;" id="modal">
 		<?php include 'includes/table.php'; ?>	
 	</div>
 </body>
