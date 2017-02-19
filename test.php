@@ -18,8 +18,8 @@
 	/* Use CSS to style the elements as you like. And, put the CSS stylesheet in a different file. */
 </style>
 
-<h1>Parsing JSON - Teachers</h1>
 <div class="container">
+<h1 class="text-center" id="room-nr"></h1>
 <table class="table table-bordered">
 	<tr>
 		<th>UKE 3</th>
@@ -31,96 +31,81 @@
 	</tr>
 	<tr>
 		<td>1</td>
-		<td id="d1-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-1" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>2</td>
-		<td id="d1-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-2" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>3</td>
-		<td id="d1-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-3" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>4</td>
-		<td id="d1-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-4" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>5</td>
-		<td id="d1-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-5" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>6</td>
-		<td id="d1-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-6" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>7</td>
-		<td id="d1-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-7" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>8</td>
-		<td id="d1-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-8" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 	<tr>
 		<td>9</td>
-		<td id="d1-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d2-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d3-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d4-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
-		<td id="d5-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div></td>
+		<td id="d1-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d2-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d3-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d4-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
+		<td id="d5-9" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div></td>
 	</tr>
 </table>
 </div>
 <!-- jQuery :) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-<script>		
-	// this will load the data from the API. It is an async call, and when it is DONE...
-	$.get('js/data.json')	.done(function(data){
-		
-	
-		for(var i = 0; i < data.length; i++) {	
-			
-			var t = data[i];
-			var cell = 'd' + t.Day + '-' + t.Time; 
-			var $ourCell = $('#' + cell); // $ because it is a jQuery object. 
-			$ourCell.find('.teacher-name').html(t.Teacher); // this will only set the data for the first hour, because the function 'getCorrectHour' does not return the 'correctHour' - yet :D
-			$ourCell.find('.subject-name').html(t.Subject);
-		}		
-	});
-
-</script>
+<script src="js/tablefill.js"></script>
 </body>
 </html>

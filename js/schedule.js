@@ -18,3 +18,4 @@ btn2.onclick = function () {
 	etg2.style.display = "inline-block";
 	klp2.style.display = "initial";	
 }
+
