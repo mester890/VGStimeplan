@@ -1,0 +1,28 @@
+@import url(loginModal.css);
+* {
+  padding: 0;
+  margin: 0; }
+
+.gvs-btn {
+  font-size: 3em !important;
+  padding: 50px 80px; }
+
+.tbData {
+  height: 40px !important; }
+
+.tbWeek {
+  width: 75px !important;
+  font-size: 3em;
+  text-align: center; }
+  .tbWeek p {
+    margin-top: 20px; }
+
+.schedule {
+  width: 70% !important; }
+  .schedule table .header-row {
+    height: 30px !important; }
+    .schedule table .header-row th {
+      text-align: center; }
+  .schedule table .left-row {
+    width: 5%;
+    text-align: center; }
