@@ -16,6 +16,7 @@
 	<body>
 	<div class="container">
 	<h1 class="text-center" id="room-nr"></h1>
+	<div class="schedule">
 	<table class="table table-bordered">
 		<tr>
 			<th>UKE 3</th>
@@ -30,7 +31,7 @@
 			for($i = 1; $i < 10; $i++){
 				?>
 				<tr>
-					<td><?php echo $i ?></td>
+					<td class="tbWeek"><p><?php echo $i ?></p></td>
 					<td id="d1-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
 					<td id="d2-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
 					<td id="d3-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
@@ -41,6 +42,7 @@
 			}
 	?>
 	</table>
+	</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/tablefill.js"></script>

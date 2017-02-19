@@ -1,4 +1,5 @@
 @import 'modal.css'
+@import 'bootstrap-override.css'
 
 body
 	//background: url('../img/marmeld.jpg')
@@ -53,18 +54,25 @@ body
 		width: 100%
 		display: block
 		padding: 20px
+::-webkit-scrollbar
+	display: none
 
 
+.tbData
+	height: 40px !important
+
+.tbWeek
+	width: 75px !important
+	font-size: 3em
+	text-align: center
+	p
+		margin-top: 20px
 
 //SCHEDULE
 .schedule
-	width: 70%
-	margin: 0 auto
-
+	width: 90% !important
 	table
 		tr
-			height: 60px		
-		
 		.header-row
 			height: 30px !important
 			th

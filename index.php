@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Gauldal VGS - Romoversikt</title>
 	<!-- Latest compiled and minified CSS morten tester -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -59,23 +59,32 @@
 			</div>
 
 			<div class="klasseplan" id="klp2">
-				<!-- Map B-fløy etg 2 -->
-					<div class="row map-row">
-						<h3 class="header-text">2. Etasje</h3>
-						<div class="col-md-6 map">
-							<h3 class="text-center header-text">A-Fløy</h3>
-							<?php include 'includes/map_a.php'; ?>
-						</div>
-						<div class="col-md-6 map">
-							<h3 class="text-center header-text">B-Fløy</h3>
-							<?php include 'includes/map_b.php'; ?>
-						</div>
+				<div class="row map-row">
+					<h3 class="header-text">2. Etasje</h3>
+					<div class="col-md-6 map">
+						<h3 class="text-center header-text">A-Fløy</h3>
+						<?php include 'includes/map_a.php'; ?>
 					</div>
+					<div class="col-md-6 map">
+						<h3 class="text-center header-text">B-Fløy</h3>
+						<?php include 'includes/map_b.php'; ?>
+					</div>
+				</div>
+			</div>
+			<div id="myModal" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <div class="schedule">
+			    	<?php include 'includes/table.php'; ?>
+			    </div>
+
+			  </div>
 			</div>
 		</div>
 	</div>
 </div>
-
+<script type="text/javascript" src="js/modal.js"></script>
 <!-- Script for btn and show of map -->
 <script type="text/javascript">
 var etg1 = document.getElementById('etg1');
@@ -112,9 +121,5 @@ function b202() {
 
 </script>
 
-
-	<div class="container" style="display:none">
-		<?php include 'includes/table.php'; ?>	
-	</div>
 </body>
 </html>

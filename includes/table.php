@@ -1,84 +1,32 @@
-		<div class="schedule">
-			<table class="table table-bordered">
-				<tr class="header-row">
-					<th>Uke 5</th>
-					<th>Mandag</th>
-					<th>Tirsdag</th>
-					<th>Onsdag</th>
-					<th>Torsdag</th>
-					<th>Fredag</th>
-				</tr>
+	<div class="container">
+	<h1 class="text-center" id="room-nr"></h1>
+	<div class="schedule">
+	<table class="table table-bordered">
+		<tr>
+			<th>UKE 3</th>
+			<th>Mandag</th>
+			<th>Tirsdag</th>
+			<th>Onsdag</th>
+			<th>Torsdag</th>
+			<th>Fredag</th>
+		</tr>
+
+	<?php 
+			for($i = 1; $i < 10; $i++){
+				?>
 				<tr>
-					<td class="left-row">1</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td class="tbWeek"><p><?php echo $i ?></p></td>
+					<td id="d1-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
+					<td id="d2-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
+					<td id="d3-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
+					<td id="d4-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
+					<td id="d5-<?php echo $i ?>" class="tbData"><div class="teacher-name"></div><div class="subject-name"></div><div class="class-name"></div><div class="free-room"></div></td>
 				</tr>
-				<tr>
-					<td class="left-row">2</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">3</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">4</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">5</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">6</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">7</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">8</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="left-row">9</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-		</div>	
+				<?php
+			}
+	?>
+	</table>
+	</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/tablefill.js"></script>

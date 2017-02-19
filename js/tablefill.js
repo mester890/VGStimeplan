@@ -9,10 +9,6 @@ $.get('js/data.json')	.done(function(data){
 		$ourCell.find('.class-name').html(t.CurrentClass);
 		document.getElementById('room-nr').innerHTML = (t.Room).toUpperCase();
 		$ourCell.css('background-color', 'rgba(255, 0, 0, 0.3)')
-
-		
-		document.title = (t.Room).toUpperCase() + " - Timeplan";
-
 		if(t.Teacher == '' && t.Subject == '') {
 			$ourCell.find('.free-room').html('');
 			$ourCell.css("background-color", "rgba(0, 255, 0, 0.3)");

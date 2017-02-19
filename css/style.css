@@ -1,4 +1,5 @@
 @import url(modal.css);
+@import url(bootstrap-override.css);
 body {
   background-repeat: no-repeat;
   background-position: 0 -38vh;
@@ -42,11 +43,21 @@ body {
     display: block;
     padding: 20px; }
 
+::-webkit-scrollbar {
+  display: none; }
+
+.tbData {
+  height: 40px !important; }
+
+.tbWeek {
+  width: 75px !important;
+  font-size: 3em;
+  text-align: center; }
+  .tbWeek p {
+    margin-top: 20px; }
+
 .schedule {
-  width: 70%;
-  margin: 0 auto; }
-  .schedule table tr {
-    height: 60px; }
+  width: 90% !important; }
   .schedule table .header-row {
     height: 30px !important; }
     .schedule table .header-row th {
