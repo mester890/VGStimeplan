@@ -1,0 +1,738 @@
+[
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 1,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Matte",
+    "Teacher": "Per Pi",
+    "Time": 2,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "1STB"
+  },
+  {
+    "Subject": "Engelsk",
+    "Teacher": "Trude Lutt",
+    "Time": 3,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "1STC"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 4,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Politikk",
+    "Teacher": "Dånal Troimp",
+    "Time": 5,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 6,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 7,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "1STG"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 8,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Naturfag",
+    "Teacher": "Bernt Bille",
+    "Time": 9,
+    "Day": 1,
+    "Room": "b201",
+    "CurrentClass": "1STI"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Per Hansen",
+    "Time": 1,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Logikk",
+    "Teacher": "Nils Jensen",
+    "Time": 2,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Krig og fred",
+    "Teacher": "Dånal Troimp",
+    "Time": 3,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 4,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "1SSS"
+  },
+  {
+    "Subject": "Naturfag",
+    "Teacher": "Bernt Bille",
+    "Time": 5,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 6,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 7,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 8,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 9,
+    "Day": 2,
+    "Room": "b201",
+    "CurrentClass": "3STG"
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 1,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 2,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 3,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 4,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 5,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 6,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 7,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 8,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "Politikk",
+    "Teacher": "Dånal Troimp",
+    "Time": 9,
+    "Day": 3,
+    "Room": "b201",
+    "CurrentClass": "1KRG"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 1,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 2,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 3,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 4,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 5,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "2STB"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 6,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "3STC"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 7,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 8,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "2STE"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 9,
+    "Day": 4,
+    "Room": "b201",
+    "CurrentClass": "3STF"
+  },
+  {
+    "Subject": "Naturfag",
+    "Teacher": "Bernt Bille",
+    "Time": 1,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "2FSD"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 2,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "4HAM"
+  },
+  {
+    "Subject": "Logikk",
+    "Teacher": "Nils Jensen",
+    "Time": 3,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "5DAM"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 4,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 5,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 6,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 7,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 8,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "2STB"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 9,
+    "Day": 5,
+    "Room": "b201",
+    "CurrentClass": "3STC"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 1,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Matte",
+    "Teacher": "Per Pi",
+    "Time": 2,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "1STB"
+  },
+  {
+    "Subject": "Engelsk",
+    "Teacher": "Trude Lutt",
+    "Time": 3,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "1STC"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 4,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Politikk",
+    "Teacher": "Dånal Troimp",
+    "Time": 5,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 6,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 7,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "1STG"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 8,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Naturfag",
+    "Teacher": "Bernt Bille",
+    "Time": 9,
+    "Day": 1,
+    "Room": "a213",
+    "CurrentClass": "1STI"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Per Hansen",
+    "Time": 1,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Logikk",
+    "Teacher": "Nils Jensen",
+    "Time": 2,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Krig og fred",
+    "Teacher": "Dånal Troimp",
+    "Time": 3,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 4,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "1SSS"
+  },
+  {
+    "Subject": "Naturfag",
+    "Teacher": "Bernt Bille",
+    "Time": 5,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 6,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 7,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 2,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 9,
+    "Day": 2,
+    "Room": "a213",
+    "CurrentClass": "3STG"
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 1,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 2,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 3,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 4,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 5,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 6,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 7,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "",
+    "Teacher": "",
+    "Time": 8,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": ""
+  },
+  {
+    "Subject": "Politikk",
+    "Teacher": "Dånal Troimp",
+    "Time": 9,
+    "Day": 3,
+    "Room": "a213",
+    "CurrentClass": "1KRG"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 1,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 2,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 3,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 4,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 5,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "2STB"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 6,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "3STC"
+  },
+  {
+    "Subject": "Nynorsk",
+    "Teacher": "Truls Test",
+    "Time": 7,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "1STD"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 8,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "2STE"
+  },
+  {
+    "Subject": "Programmering",
+    "Teacher": "Knut Kode",
+    "Time": 9,
+    "Day": 4,
+    "Room": "a213",
+    "CurrentClass": "3STF"
+  },
+  {
+    "Subject": "Naturfag",
+    "Teacher": "Bernt Bille",
+    "Time": 1,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "2FSD"
+  },
+  {
+    "Subject": "Norsk",
+    "Teacher": "Trude Lutt",
+    "Time": 2,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "4HAM"
+  },
+  {
+    "Subject": "Logikk",
+    "Teacher": "Nils Jensen",
+    "Time": 3,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "5DAM"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 4,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 5,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "2STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 6,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 7,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "1STA"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 8,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "2STB"
+  },
+  {
+    "Subject": "PrisonBreak",
+    "Teacher": "Marius Herstad Meldal",
+    "Time": 9,
+    "Day": 5,
+    "Room": "a213",
+    "CurrentClass": "3STC"
+  },
+  {
+    "Subject": "IT",
+    "Teacher": "Thomas Hovstad",
+    "Time": 1,
+    "Day": 1,
+    "Room": "b202",
+    "CurrentClass": "3STA"
+  },
+  {
+    "Subject": "IT",
+    "Teacher": "Thomas Hovstad",
+    "Time": 2,
+    "Day": 1,
+    "Room": "b202",
+    "CurrentClass": "3STA"
+  }
+]

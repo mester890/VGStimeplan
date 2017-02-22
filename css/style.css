@@ -7,22 +7,27 @@
   font-size: 3em !important;
   padding: 50px 80px; }
 
-.tbData {
-  height: 40px !important; }
+.gvs-btn-sm {
+  font-size: 2.2em !important;
+  padding: 40px 70px; }
 
-.tbWeek {
-  width: 75px !important;
-  font-size: 3em;
+.navbar-default .orange-color {
+  color: #f57223 !important; }
+
+.schedule tr th {
+  height: 30px;
+  border: 1px solid black !important;
   text-align: center; }
-  .tbWeek p {
-    margin-top: 20px; }
 
-.schedule {
-  width: 70% !important; }
-  .schedule table .header-row {
-    height: 30px !important; }
-    .schedule table .header-row th {
-      text-align: center; }
-  .schedule table .left-row {
-    width: 5%;
-    text-align: center; }
+.schedule tr td {
+  border: 1px solid black !important; }
+  .schedule tr td .teacher-name {
+    font-style: italic;
+    margin: 8px; }
+  .schedule tr td .class-name {
+    font-style: bold;
+    margin: 8px;
+    float: right; }
+  .schedule tr td .subject-name {
+    margin: 8px;
+    font-size: 1.2em; }

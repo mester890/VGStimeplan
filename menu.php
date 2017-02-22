@@ -19,14 +19,14 @@
 	              <span class="icon-bar"></span>
 	              <span class="icon-bar"></span>
 	            </button>
-	            <a class="navbar-brand" href="">Gauldal VGS</a>
+	            <a class="navbar-brand orange-color" href="index.php">Gauldal VGS</a>
 	          </div>
 	          <div id="navbar" class="navbar-collapse collapse">
 	            <ul class="nav navbar-nav">
-	              <li><a href="index.php">Hjem</a></li>
-	              <li><a href="map.php">Kart</a></li>
-	              <li><a href="myAccount.php">Min Side</a></li>
-	              <li class="dropdown">
+	              <li><a href="index.php" class="">Hjem</a></li>
+	              <li><a href="map.php" class="">Kart</a></li>
+	              <li><a href="myAccount.php" class="">Min Side</a></li>
+	              <!-- <li class="dropdown">
 	                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rom <span class="caret"></span></a>
 	                <ul class="dropdown-menu">
 	                  <li><a href="#">B200</a></li>
@@ -48,11 +48,11 @@
 	                  <li><a href="#">3STA</a></li>
 	                  <li><a href="#">3STB</a></li>
 	                </ul>
-	              </li>
+	              </li> -->
 	            </ul>
 	            <ul class="nav navbar-nav navbar-right">
 	              <!--<li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>-->
-	              <li><a href="#" data-toggle="modal" data-target="#login-modal">Logg inn</a></li>
+	              <li><a href="#" data-toggle="modal" data-target="#login-modal" class="orange-color">Logg inn</a></li>
 	            </ul>
 	          </div><!--/.nav-collapse -->
 	        </div><!--/.container-fluid -->
