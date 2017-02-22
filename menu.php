@@ -74,27 +74,6 @@
 				</div>
 			</div>
 		  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	      <script type="text/javascript">
 		    	function FindByAttributeValue(attribute, value)    {
 					  var All = document.getElementsByTagName('*');
