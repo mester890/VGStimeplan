@@ -1,22 +1,6 @@
 [
   {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 1,
-    "Day": 1,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 2,
-    "Day": 1,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "Matematikk",
+    "Subject": "Matte",
     "Teacher": "Arne",
     "Time": 3,
     "Day": 1,
@@ -24,7 +8,7 @@
     "CurrentClass": "3STA"
   },
     {
-    "Subject": "Matematikk",
+    "Subject": "Matte",
     "Teacher": "Arne",
     "Time": 4,
     "Day": 1,
@@ -48,7 +32,7 @@
     "CurrentClass": "3STA"
   },
    {
-    "Subject": "Religion",
+    "Subject": "Relgion",
     "Teacher": "Gunn",
     "Time": 7,
     "Day": 1,
@@ -72,15 +56,15 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "Kroppsøving",
+    "Subject": "Gym",
     "Teacher": "Per Kristen",
     "Time": 1,
     "Day": 2,
     "Room": "Hallen",
     "CurrentClass": "3STA"
   },
-  {
-    "Subject": "Kroppsøving",
+	{
+    "Subject": "Gym",
     "Teacher": "Per Kristen",
     "Time": 2,
     "Day": 2,
@@ -104,43 +88,11 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 5,
-    "Day": 2,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
     "Subject": "Fysikk",
     "Teacher": "Dag",
     "Time": 6,
     "Day": 2,
     "Room": "B221",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 7,
-    "Day": 2,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 8,
-    "Day": 2,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 9,
-    "Day": 2,
-    "Room": "",
     "CurrentClass": "3STA"
   },
   {
@@ -176,22 +128,6 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 5,
-    "Day": 3,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 6,
-    "Day": 3,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
     "Subject": "Historie",
     "Teacher": "Tommy",
     "Time": 7,
@@ -200,23 +136,7 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 8,
-    "Day": 3,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 9,
-    "Day": 3,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "Matematikk",
+    "Subject": "Matte",
     "Teacher": "Arne",
     "Time": 1,
     "Day": 4,
@@ -224,7 +144,7 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "Matematikk",
+    "Subject": "Matte",
     "Teacher": "Arne",
     "Time": 2,
     "Day": 4,
@@ -248,22 +168,6 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 5,
-    "Day": 4,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 6,
-    "Day": 4,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
     "Subject": "IT",
     "Teacher": "Marius",
     "Time": 7,
@@ -285,22 +189,6 @@
     "Time": 9,
     "Day": 4,
     "Room": "S1",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 1,
-    "Day": 5,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 2,
-    "Day": 5,
-    "Room": "",
     "CurrentClass": "3STA"
   },
   {
@@ -320,7 +208,7 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "Matematikk",
+    "Subject": "Matte",
     "Teacher": "Arne",
     "Time": 5,
     "Day": 5,
@@ -328,7 +216,7 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "Religion",
+    "Subject": "Relgion",
     "Teacher": "Gunn",
     "Time": 6,
     "Day": 5,
@@ -336,27 +224,19 @@
     "CurrentClass": "3STA"
   },
   {
-    "Subject": "Religion",
+    "Subject": "Relgion",
     "Teacher": "Gunn",
     "Time": 7,
     "Day": 5,
     "Room": "b204",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 8,
-    "Day": 5,
-    "Room": "",
-    "CurrentClass": "3STA"
-  },
-  {
-    "Subject": "",
-    "Teacher": "",
-    "Time": 9,
-    "Day": 5,
-    "Room": "",
     "CurrentClass": "3STA"
   }
+
+
+
+
+
+
+
+
 ]

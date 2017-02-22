@@ -63,9 +63,9 @@
 				<div class="loginmodal-container">
 					<h1>Logg inn</h1><br>
 				  <form>
-					<input type="text" name="user" placeholder="Brukernavn">
-					<input type="password" name="pass" placeholder="Passord">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Logg inn">
+					<input type="text" name="user" placeholder="Brukernavn" id="username">
+					<input type="password" name="pass" placeholder="Passord" id="password">
+					<input type="submit" name="login" class="login loginmodal-submit" id="btn" onClick="check(this.form);" value="Logg inn" >
 				  </form>
 					
 				  <div class="login-help">
@@ -74,7 +74,12 @@
 				</div>
 			</div>
 		  </div>
+<<<<<<< HEAD
 	      <script type="text/javascript">
+=======
+		  
+			<script type="text/javascript">
+>>>>>>> origin/master
 		    	function FindByAttributeValue(attribute, value)    {
 					  var All = document.getElementsByTagName('*');
 					  for (var i = 0; i < All.length; i++)       {
@@ -88,4 +93,16 @@
 			    	console.log(currentPage);
 			    	currentPage.parentNode.setAttribute('class', 'active');
 					});
+
+			    // Logg inn
+
+			    	function check(form) {
+			    		if (form.user.value == "Admin" && form.pass.value == "12345") {
+			    			window.open("myAccount.php");
+			    		}
+			    		else {
+			    			alert("Noe gikk galt... :)");
+			    		}
+			    	}
+					
 		    </script>
