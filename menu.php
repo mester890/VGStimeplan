@@ -74,12 +74,11 @@
 				</div>
 			</div>
 		  </div>
-<<<<<<< HEAD
+
 	      <script type="text/javascript">
-=======
-		  
-			<script type="text/javascript">
->>>>>>> origin/master
+
+		 
+
 		    	function FindByAttributeValue(attribute, value)    {
 					  var All = document.getElementsByTagName('*');
 					  for (var i = 0; i < All.length; i++)       {
