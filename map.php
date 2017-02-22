@@ -19,6 +19,8 @@
 					<div class="mapContainer">
 						<div id="map1" style="display:none;">
 							<script src="js/gvsLoad.js"></script>
+							<br>
+							<?php include 'js/map_a.php'; ?>
 						</div>
 					</div>
 				</div>
@@ -26,7 +28,8 @@
 					<div class="mapContainer">
 						<div id="map2" style="display:none;">
 							<script src="js/gvsLoad.js"></script>
-							<!--<script src="js/gvsFillTable.js"></script>-->
+							<br>
+							<?php include 'js/map_a.php'; ?>
 						</div>
 					</div>
 				</div>
@@ -35,6 +38,5 @@
 		<!--end of container-->
 	</div>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/gvsFillTable.js"></script>
 	</body>
 </html>
