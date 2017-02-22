@@ -1,4 +1,4 @@
-$.get('js/rooms.json')	.done(function(data){
+	$.get('js/rooms.json')	.done(function(data){
 	for(var i = 0; i < data.length; i++){
 		var t = data[i]; 
 
