@@ -1,12 +1,5 @@
 [
-  {
-    "Subject": "Norsk",
-    "Teacher": "Trude Lutt",
-    "Time": 1,
-    "Day": 1,
-    "Room": "b201",
-    "CurrentClass": "2STA"
-  },
+  
   {
     "Subject": "Matte",
     "Teacher": "Per Pi",

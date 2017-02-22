@@ -18,7 +18,11 @@
 			<tbody>
 				<tr>
 					<td>08:15 - 09:00</td>
-					<td></td>
+					<td>
+						<p>Norsk</p>
+						<p>Trude Lutt</p>
+						<p>B201</p>
+					</td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -27,22 +31,36 @@
 				<tr>
 					<td>09:10 - 09:55</td>
 					<td></td>
-					<td></td>
-					<td></td>
+					<td>
+						<p>Matte</p>
+						<p>Per Pi</p>
+						<p>B203</p>
+					</td>
+					<td>
+						<p></p>
+					</td>
 					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>10:05 - 10:50</td>
 					<td></td>
-					<td></td>
+					<td>
+						<p>Matte</p>
+						<p>Per Pi</p>
+						<p>B203</p
+>					</td>
 					<td></td>
 					<td></td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>11:00 - 11:45</td>
-					<td></td>
+					<td>
+						<p>Engelsk</p>
+						<p>Trude Lutt</p>
+						<p>B205</p>
+					</td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -66,7 +84,11 @@
 				</tr>
 				<tr>
 					<td>14:05 - 15:50</td>
-					<td></td>
+					<td>
+						<p>Norsk</p>
+						<p>Trude Lutt</p>
+						<p>B201</p>
+					</td>
 					<td></td>
 					<td></td>
 					<td></td>
