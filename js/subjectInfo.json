@@ -8,6 +8,10 @@
 		"URL": "https://www.udir.no/kl06/NOR1-05"
 	},
 	{
+		"Name":"Nynorsk",
+		"URL": "https://www.udir.no/kl06/NOR1-05"
+	},
+	{
 		"Name":"Fysikk",
 		"URL": "https://www.udir.no/kl06/FYS1-01"
 	},
@@ -16,7 +20,7 @@
 		"URL": "https://www.udir.no/kl06/GEO1-01"
 	},
 	{
-		"Name":"IT",
+		"Name":"Programmering",
 		"URL": "https://www.udir.no/kl06/INF1-01"
 	},
 	{
@@ -58,5 +62,9 @@
 	{
 		"Name":"Rettslære",
 		"URL": "https://www.udir.no/kl06/RTL1-03"
+	},
+	{
+		"Name": "Engelsk",
+		"URL": "https://www.udir.no/kl06/ENG1-03"
 	}
 ]
